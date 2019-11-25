@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+  height: 18px;
+  background-color: #f8f8f8;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 4px;
+  border: 8px solid #f8f8f8;
+  border-left-color: transparent;
+  background-clip: padding-box;
+  border-radius: 10px;
+  background-color: #e4e7e8;
+  box-shadow: inset -1px -1px 0 #e4e7e8, inset 1px 1px 0 #e4e7e8;
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+}
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
